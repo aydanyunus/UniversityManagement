@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="adc037c2bb6e4158bf801666c4ae85eb" Name="Diagram1">
+        <EntityTypeShape EntityType="UniversityModel.Admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Exam" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Group" Width="1.5" PointX="3.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Score" Width="1.5" PointX="6" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Student" Width="1.5" PointX="3.75" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Subject" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.Teacher" Width="1.5" PointX="3" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="UniversityModel.TG" Width="1.5" PointX="6" PointY="3.75" IsExpanded="true" />
+        <AssociationConnector Association="UniversityModel.FK__Exams__Subject_i__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Students__Group___3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__TGS__Group_id__5EBF139D" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Scores__Student___5AEE82B9" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__Scores__Subject___5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK__TGS__Subject_id__5FB337D6" ManuallyRouted="false" />
+        <AssociationConnector Association="UniversityModel.FK_Teachers_Subjects1" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
